@@ -7,7 +7,7 @@ def getData():
     username = "YOUR_USER_NAME"
     password = "YOUR_PASSWORD"
     driver = "{ODBC Driver 17 for SQL Server}"
-    print('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD=********')
+    print('DRIVER='+driver+';SERVER='+server+';DATABASE='+database+';UID='+username+';PWD=********')
 
     cnxn = pyodbc.connect('DRIVER='
         +driver+
