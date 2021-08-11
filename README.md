@@ -1,1 +1,3 @@
-# -portfolio_Python
+Olá! 🖖
+
+Aqui é possível encontrar alguns scripts em Python. 
