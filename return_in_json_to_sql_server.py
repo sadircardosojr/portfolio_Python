@@ -21,7 +21,7 @@ def getData():
         + password)
 
     query = """
-    select  * from YOUR_TABLE 
+    select  [columns] from YOUR_TABLE 
     FOR JSON AUTO
     """
     
@@ -40,3 +40,4 @@ if __name__ == '__main__':
     retorno = str(getData())
 
     print("\n RETORNO: " + retorno)
+https://prod.liveshare.vsengsaas.visualstudio.com/join?DBF00F2EF6B9BDD8BCC5B44360DA7444FB95
